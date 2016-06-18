@@ -1,6 +1,8 @@
 Nodebug
 =======
 
+![nodebug](nodebug.png)
+
 Nodebug is a script for detecting leftover debug code in staged changes, like
 `console.log` or `focus: true`. Which can be useful to avoid committing it into
 repo. It can be used in [precommit hooks][precommit-hook] to make it most
